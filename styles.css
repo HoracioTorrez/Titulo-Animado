@@ -1,43 +1,12 @@
-/*body{
-
-    background-color: black;
-  background-image: url(./multimedia/batman-logo-high-definition-video-desktop-wallpaper-1080p-png-favpng-tk06KCj23bx5E3cYSKzGX4YLt.jpg);
-   background-repeat:no-repeat;
-   background-position: center;
-   background-size: cover;
-   background-attachment:fixed;
-    color:white;
-    font-family: 'BatmanForeverAlternate', sans-serif;
-   
-                                                
-                                                
+*{
+    margin:0;
 }
-div{
-    position: relative;
-   
-}
-video{
-    position: absolute;
-    top: 0;
-    left:  0;
-    width: 100%;
-    height: 100%;
-    object-fit:cover;
-}
-h1{
-    background: black;
-    font-size:  190px;
-    text-align: center ;
-    font-weight:600px;
-    mix-blend-mode: multiply;
-}*/
 body {
     background-color: black;
-    background-image: url(./multimedia/batman-logo-high-definition-video-desktop-wallpaper-1080p-png-favpng-tk06KCj23bx5E3cYSKzGX4YLt.jpg);
+    background-image: url(./multimedia/Batman\ cover.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size:cover;
     color: white;
     font-family: 'BatmanForeverAlternate', sans-serif;
 }
@@ -57,9 +26,9 @@ video {
 
 h1 {
     background: black;
-    font-size: 180px;
+    font-size: 220px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 400px;
     mix-blend-mode: multiply;
 }
 
@@ -73,6 +42,6 @@ h1 {
 /* Estilos para pantallas más grandes */
 @media (min-width: 1200px) {
     h1 {
-        font-size: 250px;
+        font-size: 235px;
     }
 }
